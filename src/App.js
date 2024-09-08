@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CocktailList from './components/CocktailList';
 import CocktailDetail from './components/CocktailDetail';
 import { cocktails } from './data/cocktails';
+import './App.css';
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -13,21 +14,21 @@ const App = () => {
   );
 
   return (
-    <div className="bg-red-50 min-h-screen">
-      <header className="bg-red-600 text-white p-4 shadow-md">
-        <h1 className="text-3xl font-bold">Cocktail Recipes</h1>
+    <div className="app-container">
+      <header className="app-header">
+        <h1 className="app-title">Recette de cocktails EBS</h1>
       </header>
-      <main className="p-4 max-w-6xl mx-auto">
+      <main className="app-main">
         {selectedCocktail ? (
           <CocktailDetail cocktail={selectedCocktail} onBack={() => setSelectedCocktail(null)} />
         ) : (
           <>
             <input
               type="text"
-              placeholder="Search cocktails or ingredients..."
-              className="w-full p-3 mb-6 border-2 border-red-300 rounded-full focus:outline-none focus:border-red-500"
+              placeholder="Rechercher un cocktail..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
+              className="search-input"
             />
             <CocktailList 
               cocktails={filteredCocktails} 
