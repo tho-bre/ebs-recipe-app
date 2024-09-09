@@ -1,9 +1,5 @@
-.app-container {
-  text-align: center;
-}
-
 .app-header {
-  background-color: #FF0000; /* Rouge EBS */
+  background-color: #FF0000;
   min-height: 100px;
   display: flex;
   align-items: center;
@@ -16,28 +12,16 @@
 }
 
 .app-main {
-  padding: 20px;
+  padding: 30px;
 }
 
 .search-input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
   font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style pour le bandeau iOS */
-@supports (-webkit-touch-callout: none) {
-  .app-header {
-    padding-top: env(safe-area-inset-top);
-  }
+.search-container {
+  margin-bottom: 30px;
 }
-
-/* Remplacez la règle média existante par celle-ci */
-@media screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .app-header {
-    padding-top: env(safe-area-inset-top);
-    background-color: #FF0000;
-  }
-}
-
