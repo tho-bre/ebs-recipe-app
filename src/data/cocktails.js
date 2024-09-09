@@ -409,5 +409,231 @@ export const cocktails = [
       ],
       decoration: "Une cerise",
       optional: "Comme Hemingway était diabétique, ce cocktail ne contient pas de sirop de sucre"
+    },
+    {
+      id: 27,
+      name: "IRISH COFFEE",
+      image: "/images/irish-coffee.jpg",
+      glass: "Verre haut",
+      ice: "Aucun",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Sucre brun", quantity: "1", unit: "c.c" },
+        { name: "Irish Whiskey", quantity: "4", unit: "cl" },
+        { name: "Café", quantity: "Remplir", unit: "" },
+        { name: "Crème fouettée", quantity: "3", unit: "cl" }
+      ],
+      decoration:  "3 grains de café",
+      optional: ""
+    },
+    {
+      id: 28,
+      name: "LEMON DROP",
+      image: "/images/lemon-drop.jpg",
+      glass: "Shooter",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka", quantity: "2", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "1", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Tranche de citron jaune",
+      optional: ""
+    },
+    {
+      id: 29,
+      name: "MAI TAI",
+      image: "/images/mai-tai.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Rhum vieux de Polynésie", quantity: "4", unit: "cl" },
+        { name: "Cointreau", quantity: "2", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "3", unit: "cl" },
+        { name: "Sirop d'orgeat", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Feuilles de menthe",
+      optional: "Maita'i, est un mot tahitien signifiant bon, excellent"
+    },
+    {
+      id: 30,
+      name: "MARGARITA",
+      image: "/images/margarita.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Tequila", quantity: "4", unit: "cl" },
+        { name: "Cointreau", quantity: "2", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Givrage de sel",
+      optional: ""
+    },
+    {
+      id: 31,
+      name: "MIMOSA",
+      image: "/images/mimosa.jpg",
+      glass: "Flûte à champagne",
+      ice: "Aucun",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Jus d'orange", quantity: "1/2", unit: "verre" },
+        { name: "Champagne", quantity: "1/2", unit: "verre" }
+      ],
+      decoration: "",
+      optional: ""
+    },
+    {
+      id: 32,
+      name: "MOJITO",
+      image: "/images/mojito.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Menthe", quantity: "8 à 12", unit: "feuilles" },
+        { name: "Morceau de citron vert", quantity: "1/2 citron", unit: "" },
+        { name: "Cassonade", quantity: "1", unit: "c.c" },
+        { name: "Rhum blanc canne bleue de Martinique", quantity: "5", unit: "cl" },
+        { name: "Eau gazeuse", quantity: "Remplir", unit: "" },
+        { name: "Angostura Bitters", quantity: "1", unit: "traits" }
+      ],
+      decoration: "Tête de menthe",
+      optional: ""
+    },
+    {
+      id: 33,
+      name: "OLD FASHIONED",
+      image: "/images/old-fashioned.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Angostura Bitters", quantity: "2", unit: "traits" },
+        { name: "Bourbon", quantity: "6", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" }
+      ],
+      decoration: "Zeste d'orange",
+      optional: ""
+    },
+    {
+      id: 34,
+      name: "PINA COLADA",
+      image: "/images/pina-colada.jpg",
+      glass: "Verre haut",
+      ice: "Glace pilée",
+      technique: "Shaker",
+      ingredients: [
+        { name: "Rhum blanc", quantity: "4", unit: "cl" },
+        { name: "Jus d'ananas", quantity: "6", unit: "cl" },
+        { name: "Crème épaisse", quantity: "2", unit: "cl" },
+        { name: "Lait/Crème de coco", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Tranche d'ananas",
+      optional: ""
+    },
+    {
+      id: 35,
+      name: "PORNSTAR MARTINI",
+      image: "/images/pornstar-martini.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka", quantity: "4", unit: "cl" },
+        { name: "Liqueur de maracuja", quantity: "2", unit: "cl" },
+        { name: "Purée de maracuja", quantity: "2", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "2", unit: "cl" },
+        { name: "Sirop de vanille", quantity: "1", unit: "cl" },
+        { name: "Champagne", quantity: "1 shot à côté", unit: "" }
+      ],
+      decoration: "1/2 maracuja",
+      optional: "Améliorer avec de la vodka à la vanille"
+    },
+    {
+      id: 36,
+      name: "SCREAMING ORGASM",
+      image: "/images/screaming-orgasm.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka", quantity: "1", unit: "cl" },
+        { name: "Kahlua", quantity: "1", unit: "cl" },
+        { name: "Amaretto", quantity: "1", unit: "cl" },
+        { name: "Bailey's", quantity: "1", unit: "cl" },
+        { name: "Lait", quantity: "4", unit: "cl" }
+      ],
+      decoration: "",
+      optional: ""
+    },
+    {
+      id: 37,
+      name: "SIDE CAR",
+      image: "/images/side-car.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Cognac", quantity: "4", unit: "cl" },
+        { name: "Cointreau", quantity: "2", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Givrage de sucre",
+      optional: ""
+    },
+    {
+      id: 38,
+      name: "SOUTHSIDE",
+      image: "/images/southside.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Menthe", quantity: "8 à 12", unit: "feuilles" },
+        { name: "Gin", quantity: "6", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" }
+      ],
+      decoration: "Une feuille de menthe",
+      optional: ""
+    },
+    {
+      id: 39,
+      name: "TOM COLLINS",
+      image: "/images/tom-collins.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Shaker & Filtrer",
+      ingredients: [
+        { name: "Gin", quantity: "6", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" },
+        { name: "Eau gazeuse", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "Quartier de citron jaune",
+      optional: "John Collins : Remplacer le gin par du bourbon"
+    },
+    {
+      id: 40,
+      name: "WHISKEY SOUR",
+      image: "/images/whiskey-sour.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker sans glaçon puis Shaker & Filtrer",
+      ingredients: [
+        { name: "Angostura Bitters", quantity: "2", unit: "traits" },
+        { name: "Blanc d'oeuf", quantity: "1", unit: "" },
+        { name: "Bourbon", quantity: "6", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" }
+      ],
+      decoration: "Zeste d'orange et une cerise",
+      optional: ""
     }
   ];
