@@ -11,12 +11,13 @@ const App = () => {
   const filteredCocktails = cocktails.filter(cocktail => 
     cocktail.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     cocktail.ingredients.some(ing => ing.name.toLowerCase().includes(searchTerm.toLowerCase()))
-  );
+  )
+  .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1 className="app-title">Recette de cocktails EBS</h1>
+        <img src="/ebs_blanc_transparent.png" alt="EBS Logo" className="app-logo" />
       </header>
       <main className="app-main">
         {selectedCocktail ? (

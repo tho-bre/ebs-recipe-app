@@ -14,17 +14,17 @@ const CocktailDetail = ({ cocktail, onBack }) => (
     </div>
     <div className="p-6">
       <h2 className="text-3xl font-bold mb-4 text-red-600">{cocktail.name}</h2>
-      <p className="mb-2"><strong className="text-red-500">Glass:</strong> {cocktail.glass}</p>
-      <p className="mb-2"><strong className="text-red-500">Ice:</strong> {cocktail.ice}</p>
-      <p className="mb-2"><strong className="text-red-500">Technique:</strong> {cocktail.technique}</p>
-      <h3 className="text-xl font-bold mt-6 mb-3 text-red-600">Ingredients:</h3>
+      <p className="mb-2"><strong className="text-red-500">Type de verre :</strong> {cocktail.glass}</p>
+      <p className="mb-2"><strong className="text-red-500">Type de glaçon:</strong> {cocktail.ice}</p>
+      <p className="mb-2"><strong className="text-red-500">Technique :</strong> {cocktail.technique}</p>
+      <h3 className="text-xl font-bold mt-6 mb-3 text-red-600">Ingrédients:</h3>
       <ul className="list-disc list-inside mb-4">
         {cocktail.ingredients.map((ing, index) => (
           <li key={index}>{ing.name}: {ing.quantity} {ing.unit}</li>
         ))}
       </ul>
-      <p className="mb-2"><strong className="text-red-500">Decoration:</strong> {cocktail.decoration}</p>
-      {cocktail.optional && <p className="mb-4"><strong className="text-red-500">Optional:</strong> {cocktail.optional}</p>}
+      <p className="mb-2"><strong className="text-red-500">Décoration :</strong> {cocktail.decoration}</p>
+      {cocktail.optional && <p className="mb-4"><strong className="text-red-500">Option :</strong> {cocktail.optional}</p>}
       <button 
         onClick={onBack}
         className="mt-4 bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition duration-300"
