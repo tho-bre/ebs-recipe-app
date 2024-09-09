@@ -3,7 +3,7 @@
 }
 
 .app-header {
-  background-color: #4400ff; /* Rouge EBS FF0000 */ 
+  background-color: #FF0000; /* Rouge EBS */ 
   min-height: 100px;
   display: flex;
   align-items: center;
@@ -26,18 +26,15 @@
   font-size: 16px;
 }
 
-/* Style pour le bandeau iOS */
+/* Règle pour le haut de l'iPhone (barre d'état) */
 @supports (-webkit-touch-callout: none) {
-  .app-header {
-    padding-top: env(safe-area-inset-top);
-  }
-}
-
-/* Remplacez la règle média existante par celle-ci */
-@media screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .app-header {
-    padding-top: env(safe-area-inset-top);
+  body {
     background-color: #FF0000;
   }
+  .app-header {
+    padding-top: env(safe-area-inset-top);
+  }
+  .app-container {
+    padding-top: env(safe-area-inset-top);
+  }
 }
-
