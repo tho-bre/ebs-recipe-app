@@ -29,7 +29,7 @@ const CocktailDetail = ({ cocktail, onBack }) => (
         onClick={onBack}
         className="mt-4 bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition duration-300"
       >
-        Back to list
+        Retour à la liste
       </button>
     </div>
   </motion.div>
