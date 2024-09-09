@@ -113,5 +113,51 @@ export const cocktails = [
       ],
       decoration: "Mettre le feu",
       optional: ""
+    },
+    {
+      id: 8,
+      name: "BATANGA",
+      image: "/images/batanga.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Tequila", quantity: "4", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "1/2", unit: "citron" },
+        { name: "Coca Cola", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "Givrage de sel",
+      optional: ""
+    },
+    {
+      id: 9,
+      name: "BELLINI",
+      image: "/images/bellini.jpg",
+      glass: "Flute à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Purée de pêche", quantity: "1", unit: "cl" },
+        { name: "Liqueur de pêche", quantity: "1", unit: "cl" },
+        { name: "Prosecco", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "",
+      optional: "Rossini : Remplacer la purée et liqueur de pêche par de la purée et liqueur de framboise."
+    },
+    {
+      id: 10,
+      name: "BLOOD & SAND",
+      image: "/images/blood-&-sand.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Scotch Whisky", quantity: "2", unit: "cl" },
+        { name: "Sweet Vermouth", quantity: "2", unit: "cl" },
+        { name: "Liqueur de cerise", quantity: "2", unit: "" },
+        { name: "Jus d'orange", quantity: "2", unit: "" }
+      ],
+      decoration: "Zeste d'orange",
+      optional: ""
     }
   ];
