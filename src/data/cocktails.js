@@ -83,5 +83,35 @@ export const cocktails = [
       ],
       decoration: "Quartier de citron jaune et une cerise",
       optional: ""
+    },
+    {
+      id: 6,
+      name: "APEROL SPRITZ",
+      image: "/images/aperol-spritz.jpg",
+      glass: "Verre à vin",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Prosecco", quantity: "6", unit: "cl" },
+        { name: "Aperol", quantity: "4", unit: "cl" },
+        { name: "Eau gazeuse", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Tranche d'orange",
+      optional: ""
+    },
+    {
+      id: 7,
+      name: "B52",
+      image: "/images/b52.jpg",
+      glass: "Shooter",
+      ice: "Aucun",
+      technique: "Par couche",
+      ingredients: [
+        { name: "Kahlua", quantity: "2", unit: "cl" },
+        { name: "Baileys", quantity: "2", unit: "cl" },
+        { name: "Cointreau", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Mettre le feu",
+      optional: ""
     }
   ];
