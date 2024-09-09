@@ -38,3 +38,14 @@
     padding-top: env(safe-area-inset-top);
   }
 }
+
+/* Règle média pour l'iPhone 12 Pro / 13 Pro */
+@media screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background-color: #FF0000;
+  }
+  .app-container {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
