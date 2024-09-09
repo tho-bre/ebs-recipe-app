@@ -159,5 +159,55 @@ export const cocktails = [
       ],
       decoration: "Zeste d'orange",
       optional: ""
+    },,
+    {
+      id: 11,
+      name: "BLOODY MARY",
+      image: "/images/bloody-mary.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Shaker",
+      ingredients: [
+        { name: "Vodka", quantity: "4", unit: "cl" },
+        { name: "Jus de tomate", quantity: "8", unit: "cl" },
+        { name: "Worcestershire sauce", quantity: "3", unit: "traits" },
+        { name: "Tabasco", quantity: "3", unit: "traits" },
+        { name: "Sel de céléri", quantity: "1", unit: "pincée" },
+        { name: "Poivre", quantity: "1", unit: "pincée" },
+        { name: "Jus de citron vert", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Branche de céléri",
+      optional: ""
+    },
+    {
+      id: 12,
+      name: "BRAMBLE",
+      image: "/images/bramble.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker",
+      ingredients: [
+        { name: "Gin", quantity: "4", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "2", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" },
+        { name: "Crème de mûre (flotter)", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Quartier de citron jaune & 2 mûres",
+      optional: ""
+    },
+    {
+      id: 13,
+      name: "CAPIRINHA",
+      image: "/images/capirinha.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Cachaça", quantity: "6", unit: "cl" },
+        { name: "Quartier de citron vert", quantity: "6", unit: "" },
+        { name: "Sirop de sucre", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Quartier de citron vert",
+      optional: "Remplacer la cachaça par du rhum blanc de Martinique."
     }
   ];
