@@ -3,7 +3,7 @@ export const cocktails = [
       id: 1,
       name: "MOSCOW MULE",
       image: "/images/moscow-mule.jpg",
-      glass: "Moscow Mule Mug ou Rock",
+      glass: "Moscow Mule Mug ou Rocks",
       ice: "Cube",
       technique: "Au verre",
       ingredients: [
@@ -66,5 +66,22 @@ export const cocktails = [
       ],
       decoration: "Quartier de citron jaune",
       optional: "Beverly Hills Iced Tea : Remplacer le Coca Cola par du Champagne."
+    },
+    {
+      id: 5,
+      name: "AMARETTO SOUR",
+      image: "/images/amaretto-sour.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker sans glaçon puis Shaker & Filtrer",
+      ingredients: [
+        { name: "Angostura Bitters", quantity: "2", unit: "traits" },
+        { name: "Blanc d'oeuf", quantity: "1", unit: "" },
+        { name: "Amaretto", quantity: "6", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Quartier de citron jaune et une cerise",
+      optional: ""
     }
   ];
