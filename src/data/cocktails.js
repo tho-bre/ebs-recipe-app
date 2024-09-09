@@ -12,7 +12,7 @@ export const cocktails = [
         { name: "Ginger Beer", quantity: "Remplir", unit: "" }
       ],
       decoration: "Quartier de citron vert",
-      optional: "Mule jamaïcaine : Remplacer la vodka par du rhum épicé."
+      optional: "Mule jamaïcaine : Remplacer la vodka par du rhum épicé"
     },
     {
       id: 2,
@@ -65,7 +65,7 @@ export const cocktails = [
         { name: "Coca Cola", quantity: "Remplir", unit: "" }
       ],
       decoration: "Quartier de citron jaune",
-      optional: "Beverly Hills Iced Tea : Remplacer le Coca Cola par du Champagne."
+      optional: "Beverly Hills Iced Tea : Remplacer le Coca Cola par du Champagne"
     },
     {
       id: 5,
@@ -111,8 +111,8 @@ export const cocktails = [
         { name: "Baileys", quantity: "2", unit: "cl" },
         { name: "Cointreau", quantity: "2", unit: "cl" }
       ],
-      decoration: "Mettre le feu",
-      optional: ""
+      decoration: "",
+      optional: "Enflammer le shooter"
     },
     {
       id: 8,
@@ -133,7 +133,7 @@ export const cocktails = [
       id: 9,
       name: "BELLINI",
       image: "/images/bellini.jpg",
-      glass: "Flute à champagne",
+      glass: "Flûte à champagne",
       ice: "Aucun",
       technique: "Shaker & filtrer",
       ingredients: [
@@ -142,7 +142,7 @@ export const cocktails = [
         { name: "Prosecco", quantity: "Remplir", unit: "" }
       ],
       decoration: "",
-      optional: "Rossini : Remplacer la purée et liqueur de pêche par de la purée et liqueur de framboise."
+      optional: "Rossini : Remplacer la purée et liqueur de pêche par de la purée et liqueur de framboise"
     },
     {
       id: 10,
@@ -159,7 +159,7 @@ export const cocktails = [
       ],
       decoration: "Zeste d'orange",
       optional: ""
-    },,
+    },
     {
       id: 11,
       name: "BLOODY MARY",
@@ -208,6 +208,206 @@ export const cocktails = [
         { name: "Sirop de sucre", quantity: "2", unit: "cl" }
       ],
       decoration: "Quartier de citron vert",
-      optional: "Remplacer la cachaça par du rhum blanc de Martinique."
+      optional: "Remplacer la cachaça par du rhum blanc de Martinique"
+    },
+    {
+      id: 14,
+      name: "CLASSIC CHAMPAGNE COCKTAIL",
+      image: "/images/classic-champagne-cocktail.jpg",
+      glass: "Flûte à champagne",
+      ice: "Aucun",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Angostura Bitters mélangé avec un sucre", quantity: "1", unit: "" },
+        { name: "Cognac", quantity: "2", unit: "cl" },
+        { name: "Champagne", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "",
+      optional: ""
+    },
+    {
+      id: 15,
+      name: "CLOVER CLUB",
+      image: "/images/clover-club.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Blanc d'oeuf", quantity: "1", unit: "" },
+        { name: "Purée de framboise", quantity: "1,5", unit: "cl" },
+        { name: "Gin", quantity: "6", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "Une framboise",
+      optional: ""
+    },
+    {
+      id: 16,
+      name: "COSMOPOLITAN",
+      image: "/images/cosmopolitan.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka au citron", quantity: "4", unit: "cl" },
+        { name: "Cointreau", quantity: "2", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "1", unit: "cl" },
+        { name: "Jus de cramberry", quantity: "3", unit: "cl" }
+      ],
+      decoration: "Zeste d'orange",
+      optional: "Enflammer le zeste d'orange au dessus du verre"
+    },
+    {
+      id: 17,
+      name: "CUBA LIBRE",
+      image: "/images/cuba-libre.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Rhum blanc", quantity: "4", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "1", unit: "cl" },
+        { name: "Coca Cola", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "Quartier de citron vert",
+      optional: "Cubata : Remplacer le rhum blanc par du rhum ambré"
+    },
+    {
+      id: 18,
+      name: "DAIQUIRI",
+      image: "/images/daiquiri.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Rhum blanc", quantity: "6", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" }
+      ],
+      decoration: "",
+      optional: ""
+    },
+    {
+      id: 19,
+      name: "DARK & STORMY",
+      image: "/images/dark-&-stormy.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Jus de citron vert", quantity: "2", unit: "cl" },
+        { name: "Ginger beer", quantity: "Remplir", unit: "" },
+        { name: "Rhum ambré (flotter)", quantity: "4", unit: "cl" }
+      ],
+      decoration: "Quartier de citron vert",
+      optional: ""
+    },
+    {
+      id: 20,
+      name: "ESPRESSO MARTINI",
+      image: "/images/espresso-martini.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka", quantity: "4", unit: "cl" },
+        { name: "Kahlua", quantity: "2", unit: "cl" },
+        { name: "Espresso", quantity: "1", unit: "shot" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" }
+      ],
+      decoration: "3 grains de café",
+      optional: "Le sirop de sucre dépend de l'amertume du café"
+    },
+    {
+      id: 21,
+      name: "FRENCH 75",
+      image: "/images/french-75.jpg",
+      glass: "Flûte à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Gin", quantity: "4", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "2", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1", unit: "cl" },
+        { name: "Champagne", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "Zeste de citron jaune",
+      optional: ""
+    },
+    {
+      id: 22,
+      name: "FRENCH MARTINI",
+      image: "/images/french-martini.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Vodka", quantity: "4", unit: "cl" },
+        { name: "Chambord", quantity: "2", unit: "cl" },
+        { name: "Jus d'ananas", quantity: "4", unit: "cl" }
+      ],
+      decoration: "Une framboise",
+      optional: ""
+    },
+    {
+      id: 23,
+      name: "GIN BASIL SMASH",
+      image: "/images/gin-basil-smash.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Shaker & Filtrer",
+      ingredients: [
+        { name: "Basilic", quantity: "8 à 12", unit: "feuilles" },
+        { name: "Gin", quantity: "6", unit: "cl" },
+        { name: "Jus de citron jaune", quantity: "3", unit: "cl" },
+        { name: "Sirop de sucre", quantity: "1,5", unit: "cl" }
+      ],
+      decoration: "Une feuille de basilic",
+      optional: ""
+    },
+    {
+      id: 24,
+      name: "GIN TONIC",
+      image: "/images/gin-tonic.jpg",
+      glass: "Verre haut",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Gin", quantity: "4", unit: "cl" },
+        { name: "Tonic", quantity: "Remplir", unit: "" }
+      ],
+      decoration: "Quartier de citron vert",
+      optional: ""
+    },
+    {
+      id: 25,
+      name: "GODFATHER",
+      image: "/images/godfather.jpg",
+      glass: "Rocks",
+      ice: "Cube",
+      technique: "Au verre",
+      ingredients: [
+        { name: "Scotch Whisky", quantity: "3", unit: "cl" },
+        { name: "Amaretto", quantity: "3", unit: "cl" }
+      ],
+      decoration: "",
+      optional: ""
+    },
+    {
+      id: 26,
+      name: "HEMINGWAY DAIQUIRI",
+      image: "/images/hemingway-daiquiri.jpg",
+      glass: "Coupe à champagne",
+      ice: "Aucun",
+      technique: "Shaker & filtrer",
+      ingredients: [
+        { name: "Rhum blanc", quantity: "5", unit: "cl" },
+        { name: "Maraschino", quantity: "1", unit: "cl" },
+        { name: "Jus de citron vert", quantity: "2", unit: "cl" },
+        { name: "Jus de pamplemousse", quantity: "2", unit: "cl" }
+      ],
+      decoration: "Une cerise",
+      optional: "Comme Hemingway était diabétique, ce cocktail ne contient pas de sirop de sucre"
     }
   ];
