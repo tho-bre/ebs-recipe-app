@@ -7,6 +7,7 @@ import './App.css';
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCocktail, setSelectedCocktail] = useState(null);
+  const [savedScrollPosition, setSavedScrollPosition] = useState(0);
 
   const filteredCocktails = cocktails.filter(cocktail => {
     const searchTerms = searchTerm.toLowerCase().split(' ');
@@ -15,7 +16,22 @@ const App = () => {
       cocktail.ingredients.some(ing => ing.name.toLowerCase().includes(term))
     );
   })
-  .sort((a, b) => a.name.localeCompare(b.name));  
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+  // Sauvegarder la position de scroll avant de naviguer vers les détails
+  const handleSelectCocktail = (cocktail) => {
+    setSavedScrollPosition(window.scrollY);
+    setSelectedCocktail(cocktail);
+  };
+
+  // Restaurer la position de scroll quand on revient à la liste
+  const handleBackToList = () => {
+    setSelectedCocktail(null);
+    // Utiliser setTimeout pour s'assurer que le DOM est mis à jour avant le scroll
+    setTimeout(() => {
+      window.scrollTo({ top: savedScrollPosition, behavior: 'instant' });
+    }, 0);
+  };  
 
   return (
     <div className="app-container">
@@ -24,7 +40,7 @@ const App = () => {
       </header>
       <main className="app-main">
         {selectedCocktail ? (
-          <CocktailDetail cocktail={selectedCocktail} onBack={() => setSelectedCocktail(null)} />
+          <CocktailDetail cocktail={selectedCocktail} onBack={handleBackToList} />
         ) : (
           <>
             <div className="search-container relative">
@@ -56,7 +72,7 @@ const App = () => {
             </div>
             <CocktailList 
               cocktails={filteredCocktails} 
-              onSelectCocktail={setSelectedCocktail} 
+              onSelectCocktail={handleSelectCocktail} 
             />
           </>
         )}
